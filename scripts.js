@@ -6,11 +6,11 @@
   
     const seenBanner = Cookies.get('seenBanner');
   if(!seenBanner){
-    $('.hack6-loading-wrapper').css('display', 'flex');
+    $('.announcement-bar').css('display', 'flex');
     Cookies.set('seenBanner', true, { expires: 1 });
 
     setTimeout(()=>{
-      $('.hack6-loading-wrapper').fadeOut(500);
+      $('.announcement-bar').fadeOut(2000);
     }, 4500);
   }
 
