@@ -1,5 +1,3 @@
-// Finsweet Cookies
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
 
 <script>
